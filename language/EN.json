@@ -528,7 +528,9 @@
             "EXO_DESC" : "Get EXO random images.*NOT WORKING*",
             "BP_DESC": "Get Black Pink random images.",
             "ewall": "Get random Aesthetic wallpapers.",
-            "RWALL_DESC": "Get random awesome wallpapers."
+            "RWALL_DESC": "Get random awesome wallpapers.",
+            "WAIFU_DESC": "Get random Waifu images."
+            
             
         },
         "tiktok":{
