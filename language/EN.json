@@ -537,6 +537,8 @@
             "EXO_DESC" : "Get EXO random images.*NOT WORKING*",
             "BP_DESC": "Get Black Pink random images.",
             "ewall": "Get random Aesthetic wallpapers"
+            "RWALL_DESC": "Get random awesome wallpapers"
+            
         },
         "tiktok":{
             "TK_DESC": "Stalk tiktok profile to a given username.\n⌨️ Example: .tk _black.amda_",
