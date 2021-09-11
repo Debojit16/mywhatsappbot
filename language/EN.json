@@ -536,8 +536,8 @@
             "BTS_DESC": "Get BTS random images.",
             "EXO_DESC" : "Get EXO random images.*NOT WORKING*",
             "BP_DESC": "Get Black Pink random images.",
-            "ewall": "Get random Aesthetic wallpapers"
-            "RWALL_DESC": "Get random awesome wallpapers"
+            "ewall": "Get random Aesthetic wallpapers.",
+            "RWALL_DESC": "Get random awesome wallpapers."
             
         },
         "tiktok":{
