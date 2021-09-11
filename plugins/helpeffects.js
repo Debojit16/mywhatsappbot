@@ -111,7 +111,23 @@ const eng = `💠●*Text To Image Effect List*●💠\n\n` +
 `⚙️Command: *.silk*\nℹ️Description: Text to silk cloth.\n\n` + 
 `⚙️Command: *.light*\nℹ️Description: Text to light theme banner.\n\n` + 
 `⚙️Command: *.royal*\nℹ️Description: Text to royal themed text.\n\n` + 
-`⚙️Command: *.3dtext*\nℹ️Description: Text to 3D text effect.\n\n`
+`⚙️Command: *.3dtext*\nℹ️Description: Text to 3D text effect.\n\n` +
+      `💠●*Latest Added Effects (11/09/2021)*●💠\n\n` +
+`⚙️Command: *.marvel*\nℹ️Description: Text to Marvel Studios logo.\n\n` + 
+`⚙️Command: *.wallbreak*\nℹ️Description: Text to  broken wall text effect.\n\n` + 
+`⚙️Command: *.monsoon*\nℹ️Description: Text to rainy glass effect.\n\n` + 
+`⚙️Command: *.flowertxt*\nℹ️Description: Text to flower text effects. \n\n` + 
+`⚙️Command: *.crosslogo*\nℹ️Description: Text to crossfire logo.\n\n` + 
+`⚙️Command: *.lovely*\nℹ️Description: Text to lovely text effect.\n\n` + 
+`⚙️Command: *.skytext*\nℹ️Description: Text to sky wallpaper text effect.\n\n` + 
+`⚙️Command: *.lgttxt*\nℹ️Description: Text to light text effect. \n\n` + 
+`⚙️Command: *.christmas*\nℹ️Description: Text to christmas style effect text.\n\n` + 
+`⚙️Command: *.snowtxt*\nℹ️Description: Text to snow text effect.\n\n` + 
+`⚙️Command: *.watercolor*\nℹ️Description: Text to water color text effect.\n_(Ex: .watercolor Büññy®/Bot)_\n\n` + 
+`⚙️Command: *.txt3d2*\nℹ️Description: Text to 3d text effect.\n\n` + 
+`⚙️Command: *.fireworks*\nℹ️Description: Text to fireworks style text effect.\n\n` + 
+`⚙️Command: *.leaves*\nℹ️Description: Text to leaves style text effect.\n\n` +
+`⚙️Command: *.tikglich*\nℹ️Description: Text to 3D text effect.\n_(Ex: .tikglich Büññy®/Bot)_\n\n`
 
 if (Config.LANG == 'EN') {
     if (Config.WORKTYPE == 'private') {
