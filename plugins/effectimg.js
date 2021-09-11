@@ -223,6 +223,36 @@ Amdi.applyCMD({pattern: 'monsoon ?(.*)', fromMe: LOL,  deleteCommand: false, don
 
 }));
 
+Amdi.applyCMD({pattern: 'flowertxt ?(.*)', fromMe: LOL,  deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {
+
+  if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
+
+  var webimage = await axios.get(`https://api.zeks.me/api/flowertext?apikey=qq8HkOVf1abvIWYqjMohCTETMrh&text=${match[1]}`, { responseType: 'arraybuffer' })
+
+  await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP, thumbnail: thumb, quoted: message.data })
+
+}));
+
+Amdi.applyCMD({pattern: 'crosslogo ?(.*)', fromMe: LOL,  deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {
+
+  if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
+
+  var webimage = await axios.get(`https://api.zeks.me/api/crosslogo?apikey=TgzSEsXLPopdlMik61BPsSCKQsh&text=${match[1]}`, { responseType: 'arraybuffer' })
+
+  await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP, thumbnail: thumb, quoted: message.data })
+
+}));
+
+Amdi.applyCMD({pattern: 'lovely ?(.*)', fromMe: LOL,  deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {
+
+  if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
+
+  var webimage = await axios.get(`https://api.zeks.me/api/glowtext?apikey=TgzSEsXLPopdlMik61BPsSCKQsh&text=${match[1]}`, { responseType: 'arraybuffer' })
+
+  await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP, thumbnail: thumb, quoted: message.data })
+
+}));
+
 
 Amdi.applyCMD({pattern: 'wflogo ?(.*)', fromMe: LOL,  deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {
 
