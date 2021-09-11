@@ -62,7 +62,7 @@ Amdi.applyCMD({pattern: 'ewallpaper ?(.*)', fromMe: LOL, desc: Lang.ewall,  dele
 
 Amdi.applyCMD({pattern: 'rwallpaper ?(.*)', fromMe: LOL, desc: Lang.RWALL_DESC,  deleteCommand: false}, (async (message, match) => {
 
-    var webimage = await axios.get(`https://source.unsplash.com/random/1280x720`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://source.unsplash.com/random/1920x1080`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAP, quoted: message.data, thumbnail: thumb })
 
