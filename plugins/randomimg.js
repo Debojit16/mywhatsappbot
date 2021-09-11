@@ -29,17 +29,6 @@ Amdi.applyCMD({pattern: 'bts ?(.*)', fromMe: LOL, desc: Lang.BTS_DESC,  deleteCo
 
 }));
 
-
-Amdi.applyCMD({pattern: 'exo ?(.*)', fromMe: LOL, desc: Lang.EXO_DESC,  deleteCommand: false}, (async (message, match) => {
-
-    var apikey = await QueenAmdi.api()
-
-    var webimage = await axios.get('https://api.lolhuman.xyz/api/random/exo?apikey' + apikey.key, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAP, quoted: message.data, thumbnail: thumb })
-
-}));
-
     
 Amdi.applyCMD({pattern: 'blackpink ?(.*)', fromMe: LOL, desc: Lang.BP_DESC,  deleteCommand: false}, (async (message, match) => {
 
@@ -68,11 +57,41 @@ Amdi.applyCMD({pattern: 'rwallpaper ?(.*)', fromMe: LOL, desc: Lang.RWALL_DESC, 
 
 }));
 
-Amdi.applyCMD({pattern: 'waifu ?(.*)', fromMe: LOL, desc: Lang.BP_DESC,  deleteCommand: false}, (async (message, match) => {
+Amdi.applyCMD({pattern: 'waifu ?(.*)', fromMe: LOL, desc: Lang.WAIFU_DESC,  deleteCommand: false}, (async (message, match) => {
 
     var apikey = await QueenAmdi.api()
 
     var webimage = await axios.get('https://api.lolhuman.xyz/api/random/waifu?apikey=' + apikey.key, { responseType: 'arraybuffer' })
+
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+
+}));
+
+Amdi.applyCMD({pattern: 'neko ?(.*)', fromMe: LOL, desc: Lang.NEKO1_DESC,  deleteCommand: false}, (async (message, match) => {
+
+    var apikey = await QueenAmdi.api()
+
+    var webimage = await axios.get('https://api.lolhuman.xyz/api/random/neko?apikey=' + apikey.key, { responseType: 'arraybuffer' })
+
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+
+}));
+
+Amdi.applyCMD({pattern: 'nswaifu ?(.*)', fromMe: LOL, desc: Lang.NSFW_WAIFU_DESC,  deleteCommand: false}, (async (message, match) => {
+
+    var apikey = await QueenAmdi.api()
+
+    var webimage = await axios.get('https://api.lolhuman.xyz/api/random/nsfw/waifu?apikey=' + apikey.key, { responseType: 'arraybuffer' })
+
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+
+}));
+
+Amdi.applyCMD({pattern: 'nsneko ?(.*)', fromMe: LOL, desc: Lang.NSFW_NEKO1_DESC,  deleteCommand: false}, (async (message, match) => {
+
+    var apikey = await QueenAmdi.api()
+
+    var webimage = await axios.get('https://api.lolhuman.xyz/api/random/nsfw/neko?apikey=' + apikey.key, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAP, quoted: message.data, thumbnail: thumb })
 
