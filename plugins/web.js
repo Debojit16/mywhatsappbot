@@ -28,7 +28,7 @@ function speedText(speed) {
     return `${bits.toFixed(places[unit])} ${units[unit]}bps`;
 }
 
-Amdi.applyCMD({pattern: 'speedtest', fromMe: true, desc: Lang.SPEEDTEST_DESC,  deleteCommand: false}, (async (message, match) => {
+Amdi.applyCMD({pattern: 'speedtest', fromMe: true, desc: Lang.SPEEDTEST_DESC,  deleteCommand: true}, (async (message, match) => {
     var msg = await message.reply(Lang.SPEEDTESTING);
     var st = await speedTest({acceptLicense: true, acceptGdpr: true});
     
@@ -43,7 +43,7 @@ Amdi.applyCMD({pattern: 'speedtest', fromMe: true, desc: Lang.SPEEDTEST_DESC,  d
 }));
 
 
-Amdi.applyCMD({pattern: 'ping', fromMe: true, deleteCommand: false, desc: Lang.PING_DESC}, (async (message, match) => {
+Amdi.applyCMD({pattern: 'ping', fromMe: true, deleteCommand: true, desc: Lang.PING_DESC}, (async (message, match) => {
   var start = new Date().getTime();
   var msg = await message.reply('```Ping!```');
   var end = new Date().getTime();
