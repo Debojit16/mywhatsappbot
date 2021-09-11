@@ -52,9 +52,17 @@ Amdi.applyCMD({pattern: 'blackpink ?(.*)', fromMe: LOL, desc: Lang.BP_DESC,  del
 }));
 
 
-Amdi.applyCMD({pattern: 'ewallpaper ?(.*)', fromMe: LOL, desc: Lang.BP_DESC,  deleteCommand: false}, (async (message, match) => {
+Amdi.applyCMD({pattern: 'ewallpaper ?(.*)', fromMe: LOL, desc: Lang.ewall,  deleteCommand: false}, (async (message, match) => {
 
     var webimage = await axios.get(`https://api.zeks.me/api/estetikpic?apikey=blackamda`, { responseType: 'arraybuffer' })
+
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+
+}));
+
+Amdi.applyCMD({pattern: 'rwallpaper ?(.*)', fromMe: LOL, desc: Lang.RWALL_DESC,  deleteCommand: false}, (async (message, match) => {
+
+    var webimage = await axios.get(`https://source.unsplash.com/random/1280x720`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAP, quoted: message.data, thumbnail: thumb })
 
