@@ -528,8 +528,10 @@
             "BP_DESC": "Get Black Pink random images.",
             "ewall": "Get random Aesthetic wallpapers.",
             "RWALL_DESC": "Get random awesome wallpapers.",
-            "WAIFU_DESC": "Get random Waifu images."
-            "NEKO_DESC": "Get random Neko images."
+            "WAIFU_DESC": "Get random Waifu images.",
+            "NEKO1_DESC": "Get random Neko images.",
+            "NSFW_WAIFU_DESC": "Get random NSFW Waifu images.",
+            "NSFW_NEKO1_DESC": "Get random NSFW Neko images."
             
             
         },
