@@ -13,12 +13,12 @@ const {MessageType} = require('@adiwajshing/baileys');
 const Language = require('../language');
 const Lang = Language.getString('scrapers');
 
-const eng = `💠●*ALL ANIME COMMANDS PLUGIN LIST*●💠\n\n` + 
-`💠●*SFW*●💠\n\n` +
+const eng = `💠● *ALL ANIME COMMANDS PLUGIN LIST* ●💠\n\n` + 
+`💠● *SFW* ●💠\n\n` +
 `⚙️Command: *.ranimel*\nℹ️Description: Random Anime Images.\n\n` +
 `⚙️Command: *.waifu*\nℹ️Description: Get random Waifu images.\n\n` + 
 `⚙️Command: *.neko*\nℹ️Description: Get random Neko images.\n\n` + 
-`💠●*NSFW*●💠\n\n` + 
+`💠● *NSFW* ●💠\n\n` + 
 `⚙️Command: *.nswaifu*\nℹ️Description: Get random NSFW Waifu images.\n\n` + 
 `⚙️Command: *.nsneko*\nℹ️Description: Get random NSFW Neko images.\n\n` + 
 `⚙️Command: *.hehe*\nℹ️Description: COMING SOON!\n\n`
