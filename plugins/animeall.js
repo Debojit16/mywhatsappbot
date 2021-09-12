@@ -31,7 +31,7 @@ if (Config.LANG == 'EN') {
     }
 
     else if (Config.WORKTYPE == 'public') {
-        Amdi.applyCMD({pattern: 'animeall', fromMe: false, desc: Lang.ANIMEALL_DESC}, (async (message, match) => {    
+        Amdi.applyCMD({pattern: 'animeall', fromMe: true, desc: Lang.ANIMEALL_DESC}, (async (message, match) => {    
             await message.client.sendMessage(message.jid,eng, MessageType.text,{quoted: message.data});
         }));
     }
@@ -45,7 +45,7 @@ if (Config.LANG == 'SI') {
     }
 
     else if (Config.WORKTYPE == 'public') {
-        Amdi.applyCMD({pattern: 'animeall', fromMe: false, desc: Lang.ANIMEALL_DESC}, (async (message, match) => {    
+        Amdi.applyCMD({pattern: 'animeall', fromMe: true, desc: Lang.ANIMEALL_DESC}, (async (message, match) => {    
             await message.client.sendMessage(message.jid,sin, MessageType.text,{quoted: message.data});
         }));
     }
