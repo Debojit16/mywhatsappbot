@@ -217,6 +217,7 @@
             "IMG": "\n🔄 Uploading images ```{}``` numbers ```{} ```...\n",
             "CURRENCY_DESC": "To convert currencies.",
             "EFFECT_DESC": "A set of commands for converting text to effect images.",
+            "ANIMEALL_DESC": "All Commands for Anime related queries😳.",
             "IG_DESC": "Download instagram videos.",
             "NEED_WORD": "Please enter a valid link!",
             "QUOTE_DESC": "It Sends Random Quote",
