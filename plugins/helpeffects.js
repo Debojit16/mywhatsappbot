@@ -113,7 +113,7 @@ const eng = `💠●*Text To Image Effect List*●💠\n\n` +
 `⚙️Command: *.royal*\nℹ️Description: Text to royal themed text.\n\n` + 
 `⚙️Command: *.3dtext*\nℹ️Description: Text to 3D text effect.\n\n` +
       `💠●*Latest Added Effects (11/09/2021)*●💠\n\n` +
-`⚙️Command: *.marvel*\nℹ️Description: Text to Marvel Studios logo.\n\n` + 
+`⚙️Command: *.marvel*\nℹ️Description: Text to Marvel Studios logo.\n_(Ex: .glitch Büññy®;Bot)_\n\n` + 
 `⚙️Command: *.wallbreak*\nℹ️Description: Text to  broken wall text effect.\n\n` + 
 `⚙️Command: *.monsoon*\nℹ️Description: Text to rainy glass effect.\n\n` + 
 `⚙️Command: *.flowertxt*\nℹ️Description: Text to flower text effects. \n\n` + 
