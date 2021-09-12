@@ -213,7 +213,7 @@ Amdi.applyCMD({pattern: 'nsnekogif ?(.*)', fromMe: LOL, dontAddCommandList: true
 
     var webimage = await axios.get('https://api.lolhuman.xyz/api/random2/nsfw_neko_gif?apikey=' + apikey.key, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.gif, caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.gif, {mimetype: Mimetype.gif, caption: Config.CAP, quoted: message.data, thumbnail: thumb })
 
 }));
 
@@ -223,7 +223,7 @@ Amdi.applyCMD({pattern: 'nshengif ?(.*)', fromMe: LOL, dontAddCommandList: true,
 
     var webimage = await axios.get('https://api.lolhuman.xyz/api/random2/random_hentai_gif?apikey=' + apikey.key, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.gif, caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.gif, {mimetype: Mimetype.gif, caption: Config.CAP, quoted: message.data, thumbnail: thumb })
 
 }));
 
