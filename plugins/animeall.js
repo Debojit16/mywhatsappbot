@@ -13,22 +13,15 @@ const {MessageType} = require('@adiwajshing/baileys');
 const Language = require('../language');
 const Lang = Language.getString('scrapers');
 
-const eng = `💠●*Text To Image Effect List*●💠\n\n` + 
-`⚙️Command: *.pemoji*\nℹ️Description: Emoji to PNG.\n\n` + 
-`⚙️Command: *.hacker*\nℹ️Description: Text to Hacker wallpaper.\n\n` + 
-`⚙️Command: *.matrix*\nℹ️Description: Text to matrix wallpaper\n\n` + 
-`⚙️Command: *.hbd*\nℹ️Description: Making birthday cake with a name.\n\n` + 
-`⚙️Command: *.gaming*\nℹ️Description: Text to Gaming logo.\n\n` + 
-`⚙️Command: *.fpslogo*\nℹ️Description: Text to FPS Gaming logo.\n\n` + 
-`⚙️Command: *.shadow*\nℹ️Description: Text to shadow effect.\n\n` + 
-`⚙️Command: *.cup*\nℹ️Description: Cup themed image.\n\n` + 
-`⚙️Command: *.sad*\nℹ️Description: Text to wet glass effect.\n\n` + 
-`⚙️Command: *.wolfm*\nℹ️Description: Text to metal wolf badge.\n\n` + 
-`⚙️Command: *.wflogo*\nℹ️Description: Wolf logo with your text.\n\n` + 
-`⚙️Command: *.naruto*\nℹ️Description: Text to naruto themed banner.\n\n` + 
-`⚙️Command: *.fflogo*\nℹ️Description: Text to FreeFire logo\n\n` + 
-`⚙️Command: *.flame*\nℹ️Description: Text to fire effect.\n\n` + 
-`⚙️Command: *.avenger*\nℹ️Description: Text to avenger logo\n_(Ex: .avenger Büññy®/Bot)_\n\n`
+const eng = `💠●*ALL ANIME COMMANDS PLUGIN LIST*●💠\n\n` + 
+`💠●*SFW*●💠\n\n` +
+`⚙️Command: *.ranime*\nℹ️Description: Random Anime Images.\n\n` +
+`⚙️Command: *.waifu*\nℹ️Description: Get random Waifu images.\n\n` + 
+`⚙️Command: *.neko*\nℹ️Description: Get random Neko images.\n\n` + 
+`💠●*NSFW*●💠\n\n` + 
+`⚙️Command: *.nswaifu*\nℹ️Description: Get random NSFW Waifu images.\n\n` + 
+`⚙️Command: *.nsneko*\nℹ️Description: Get random NSFW Neko images.\n\n` + 
+`⚙️Command: *.hehe*\nℹ️Description: COMING SOON!\n\n`
 
 if (Config.LANG == 'EN') {
     if (Config.WORKTYPE == 'private') {
