@@ -16,7 +16,7 @@ const Lang = Language.getString('anime');
 let LOL = Config.WORKTYPE == 'public' ? false : true
 
 
-Amdi.applyCMD({pattern: 'ranime ?(.*)', fromMe: LOL, desc: Lang.AN,  deleteCommand: false}, (async (message, match) => {
+Amdi.applyCMD({pattern: 'ranimel ?(.*)', fromMe: LOL, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
 
     var r_text = new Array ();
 
