@@ -15,7 +15,7 @@ const Lang = Language.getString('scrapers');
 
 const eng = `💠●*ALL ANIME COMMANDS PLUGIN LIST*●💠\n\n` + 
 `💠●*SFW*●💠\n\n` +
-`⚙️Command: *.ranime*\nℹ️Description: Random Anime Images.\n\n` +
+`⚙️Command: *.ranimel*\nℹ️Description: Random Anime Images.\n\n` +
 `⚙️Command: *.waifu*\nℹ️Description: Get random Waifu images.\n\n` + 
 `⚙️Command: *.neko*\nℹ️Description: Get random Neko images.\n\n` + 
 `💠●*NSFW*●💠\n\n` + 
