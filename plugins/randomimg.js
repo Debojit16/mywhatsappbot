@@ -57,7 +57,7 @@ Amdi.applyCMD({pattern: 'rwallpaper ?(.*)', fromMe: LOL, desc: Lang.RWALL_DESC, 
 
 }));
 
-Amdi.applyCMD({pattern: 'waifu ?(.*)', fromMe: LOL, desc: Lang.WAIFU_DESC,  deleteCommand: false}, (async (message, match) => {
+Amdi.applyCMD({pattern: 'waifu ?(.*)', fromMe: LOL, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
 
     var apikey = await QueenAmdi.api()
 
@@ -67,7 +67,7 @@ Amdi.applyCMD({pattern: 'waifu ?(.*)', fromMe: LOL, desc: Lang.WAIFU_DESC,  dele
 
 }));
 
-Amdi.applyCMD({pattern: 'neko ?(.*)', fromMe: LOL, desc: Lang.NEKO1_DESC,  deleteCommand: false}, (async (message, match) => {
+Amdi.applyCMD({pattern: 'neko ?(.*)', fromMe: LOL, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
 
     var apikey = await QueenAmdi.api()
 
@@ -77,7 +77,7 @@ Amdi.applyCMD({pattern: 'neko ?(.*)', fromMe: LOL, desc: Lang.NEKO1_DESC,  delet
 
 }));
 
-Amdi.applyCMD({pattern: 'nswaifu ?(.*)', fromMe: LOL, desc: Lang.NSFW_WAIFU_DESC,  deleteCommand: false}, (async (message, match) => {
+Amdi.applyCMD({pattern: 'nswaifu ?(.*)', fromMe: LOL, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
 
     var apikey = await QueenAmdi.api()
 
@@ -87,7 +87,7 @@ Amdi.applyCMD({pattern: 'nswaifu ?(.*)', fromMe: LOL, desc: Lang.NSFW_WAIFU_DESC
 
 }));
 
-Amdi.applyCMD({pattern: 'nsneko ?(.*)', fromMe: LOL, desc: Lang.NSFW_NEKO1_DESC,  deleteCommand: false}, (async (message, match) => {
+Amdi.applyCMD({pattern: 'nsneko ?(.*)', fromMe: LOL, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
 
     var apikey = await QueenAmdi.api()
 
