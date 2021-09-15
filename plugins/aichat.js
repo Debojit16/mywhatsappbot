@@ -29,7 +29,7 @@ if (Config.CHAT_BOT == 'true') {
 			try {
 				const response = await got(url);
 				const json = JSON.parse(response.body);
-			if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '\n*👸🏻 ' + Lang.BOT + json.messages[0].response\n\n' , MessageType.text,{quoted: message.data});
+			if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '\n*👸🏻 ' + Lang.BOT +'* ```' + json.messages[0].response + '```\n\n' , MessageType.text,{quoted: message.data});
 			} catch {
 				return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDAC, MessageType.text);
 			}
@@ -43,7 +43,7 @@ if (Config.CHAT_BOT == 'true') {
 			try {
 				const response = await got(url);
 				const json = JSON.parse(response.body);
-			if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '\n*👸🏻 ' + Lang.BOT + json.messages[0].response\n\n' , MessageType.text,{quoted: message.data});
+			if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '\n*👸🏻 ' + Lang.BOT +'* ```' + json.messages[0].response + '```\n\n' , MessageType.text,{quoted: message.data});
 			} catch {
 				return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDAC, MessageType.text);
 			}
