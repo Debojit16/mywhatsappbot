@@ -21,7 +21,7 @@ let LOL = Config.WORKTYPE == 'public' ? false : true
 Amdi.applyCMD({ pattern: 'movie ?(.*)', fromMe: LOL, desc: Lang.MOVIE_DESC ,  deleteCommand: false}, (async (message, match) => {
 	const movie = match[1]
 	if (movie === '') return await message.client.sendMessage(message.jid, Lang.MOVIE_NAME, MessageType.text, { quoted: message.data });
-		let url = `http://www.omdbapi.com/?apikey=742b2d09&t=${match[1]}&plot=full`
+		let url = `http://www.omdbapi.com/?apikey=696f611a&t=${match[1]}&plot=full`
 		var payload = await QueenAmdi.movie(movie)
 		const response = await got(url);
 		const json = JSON.parse(response.body);
