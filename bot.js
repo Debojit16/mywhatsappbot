@@ -299,7 +299,7 @@ if (config.WORKTYPE == 'public') {
         })
     }
     else {
-        await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*Büññy®Bot started in Public Mode👸*\n\n_Please do not try any commands here. This is your log number._\n_You can try commands anywhere else :)_\n\n_Type_ *.panel* _to get your full command list._\n\n_Your bot in Public Mode. To change, use_ ```.setvar WORK_TYPE=private``` _command._\n\n*You can check our website for new features : https://www.amdaniwasa.com/*\n\n*Comment here to request new features:*\nhttps://tinyurl.com/Queen-Amdi-Ideas\n\n*Updates:* https://gist.github.com/BlackAmda/890b6b31fcb8d376d6a68afcb7359324\n\n *Thank you for using Büññy®Bot 💌*', MessageType.text);
+        await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*Büññy®Bot started in Public Mode👸*\n\n_Please do not try any commands here. This is your log number._\n_You can try commands anywhere else :)_\n\n_Type_ *.help* _to get your full command list._\n\n_Your bot in Public Mode. To change, use_ ```.setvar WORK_TYPE=private``` _command._\n\n*You can check our website for new features : I dont`t have one😅*\n\n*Thank you for using Büññy®Bot 💌*', MessageType.text);
     }
 }
 else if (config.WORKTYPE == 'private') {
@@ -320,7 +320,7 @@ else if (config.WORKTYPE == 'private') {
         })
     }
     else {
-        await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*Büññy®Bot started in Private Mode👸*\n\n_Please do not try any commands here. This is your log number._\n_You can try commands anywhere else :)_\n\n_Type_ *.panel* _to get your full command list._\n\n_Your bot in Private Mode. To change, use_ ```.setvar WORK_TYPE=public``` _command._\n\n*You can check our website for new features : https://www.amdaniwasa.com/*\n\n*Comment here to request new features:*\nhttps://tinyurl.com/Queen-Amdi-Ideas\n\n*Updates:* https://gist.github.com/BlackAmda/890b6b31fcb8d376d6a68afcb7359324\n\n *Thank you for using Büññy®Bot 💌*', MessageType.text);
+        await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*Büññy®Bot started in Private Mode👸*\n\n_Please do not try any commands here. This is your log number._\n_You can try commands anywhere else :)_\n\n_Type_ *.help* _to get your full command list._\n\n_Your bot in Private Mode. To change, use_ ```.setvar WORK_TYPE=public``` _command._\n\n*You can check our website for new features : I dont`t have one😅*\n\n*Thank you for using Büññy®Bot 💌*', MessageType.text);
     }
 }
     else {
@@ -724,7 +724,7 @@ else if (config.LANG == 'SI') {
                                 else if (error.message.includes('Ookla')) {
                                     return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [Büññy®Bot] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _Ookla Server QueenAmdiConection_' +
+                                        '\n\n*Main Error:* _Ookla Server Büññy®BotConection_' +
                                         '\n\n*Reason:* _Speedtest data cannot be transmitted to the server._' +
                                         '\n\n*Solution:* _If you use it one more time the problem will be solved._'
                                         , MessageType.text
@@ -778,7 +778,7 @@ else if (config.LANG == 'SI') {
                                 else if (error.message.includes('400')) {
                                     return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [Büññy®Bot] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _Bailyes Action Error_ ' +
+                                        '\n\n*Main Error:* _Bailyes(whatsappweb error) Action Error_ ' +
                                         '\n\n*Reason:* _The exact reason is unknown. More than one option may have triggered this error._' +
                                         '\n\n*Solution:* _If you use it again, it may improve. If the error continues, you can try to restart._'
                                         , MessageType.text
@@ -797,7 +797,7 @@ else if (config.LANG == 'SI') {
                                     return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [Büññy®Bot] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Media downloading error_' +
-                                        '\n\n*Reason:* _QueenAmdiConection between site disQueenAmdiConected._' +
+                                        '\n\n*Reason:* _Büññy®BotConection between site disconected._' +
                                         '\n\n*Solution:* _Wait for few minutes. This error will fixed By Developers._'
                                         , MessageType.text
                                     );
@@ -806,7 +806,7 @@ else if (config.LANG == 'SI') {
                                     return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [Büññy®Bot] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Media downloading error_' +
-                                        '\n\n*Reason:* _QueenAmdiConection between site disQueenAmdiConected._' +
+                                        '\n\n*Reason:* _Büññy®BotConection between site disconected._' +
                                         '\n\n*Solution:* _Wait for few minutes. This error will fixed By Developers._'
                                         , MessageType.text
                                     );
@@ -822,7 +822,7 @@ else if (config.LANG == 'SI') {
                                 }
                                 else {
                                     return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! 🙇🏻*' +
-                                        '\n_You can write to our support groups for more help._'
+                                        '\n_You can ask Büññy® for help._'
                                         , MessageType.text
                                     );
                                 } 
