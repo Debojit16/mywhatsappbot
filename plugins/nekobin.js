@@ -37,7 +37,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-   Amdi.applyCMD({pattern: 'nekbin', fromMe: LOL, desc: Lang.NEKO_DESC}, (async (message, match) => {
+   Amdi.applyCMD({pattern: 'nekbin', fromMe: false, desc: Lang.NEKO_DESC}, (async (message, match) => {
 
         if (!message.reply_message) return await message.sendMessage(Lang.NEED_REPLY);
         if (!message.reply_message.text) return await message.sendMessage(Lang.MUST_TEXT);
