@@ -7,17 +7,18 @@ you may not use this file except in compliance with the License.
 WhatsAsena - Yusuf Usta
 */
 
-const Asena = require('../events');
+const Amdi = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const got = require('got');
 const Config = require('../config');
 
 const Language = require('../language');
 const Lang = Language.getString('nekobin');
+let LOL = Config.WORKTYPE == 'public' ? false : true
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'neko', fromMe: true, desc: Lang.NEKO_DESC}, (async (message, match) => {
+    Amdi.applyCMD({pattern: 'nekbin', fromMe: true, desc: Lang.NEKO_DESC}, (async (message, match) => {
 
         if (!message.reply_message) return await message.sendMessage(Lang.NEED_REPLY);
         if (!message.reply_message.text) return await message.sendMessage(Lang.MUST_TEXT);
@@ -36,7 +37,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'neko', fromMe: false, desc: Lang.NEKO_DESC}, (async (message, match) => {
+   Amdi.applyCMD({pattern: 'nekbin', fromMe: LOL, desc: Lang.NEKO_DESC}, (async (message, match) => {
 
         if (!message.reply_message) return await message.sendMessage(Lang.NEED_REPLY);
         if (!message.reply_message.text) return await message.sendMessage(Lang.MUST_TEXT);
@@ -52,7 +53,7 @@ else if (Config.WORKTYPE == 'public') {
         }
        
     }));
-    Asena.addCommand({pattern: 'neko', fromMe: true, desc: Lang.NEKO_DESC, dontAddCommandList: true}, (async (message, match) => {
+    Amdi.applyCMD({pattern: 'nekbin', fromMe: true, desc: Lang.NEKO_DESC, dontAddCommandList: true}, (async (message, match) => {
 
         if (!message.reply_message) return await message.sendMessage(Lang.NEED_REPLY);
         if (!message.reply_message.text) return await message.sendMessage(Lang.MUST_TEXT);
