@@ -20,8 +20,8 @@ if (Config.WORKTYPE == 'private') {
 
     Amdi.applyCMD({pattern: 'nekbin', fromMe: true, desc: Lang.NEKO_DESC}, (async (message, match) => {
 
-        if (!message.reply_message) return await message.sendMessage(Lang.NEED_REPLY);
-        if (!message.reply_message.text) return await message.sendMessage(Lang.MUST_TEXT);
+        if (message.reply_message) return await message.sendMessage(Lang.NEED_REPLY);
+        if (message.reply_message.text) return await message.sendMessage(Lang.MUST_TEXT);
         let base_URI = "https://nekobin.com/api/documents";
         try {
             const response = await got.post(base_URI, {json : {content : message.reply_message.text}}); 
@@ -39,8 +39,8 @@ else if (Config.WORKTYPE == 'public') {
 
    Amdi.applyCMD({pattern: 'nekbin', fromMe: false, desc: Lang.NEKO_DESC}, (async (message, match) => {
 
-        if (!message.reply_message) return await message.sendMessage(Lang.NEED_REPLY);
-        if (!message.reply_message.text) return await message.sendMessage(Lang.MUST_TEXT);
+        if message.reply_message) return await message.sendMessage(Lang.NEED_REPLY);
+        if (message.reply_message.text) return await message.sendMessage(Lang.MUST_TEXT);
         let base_URI = "https://nekobin.com/api/documents";
         try {
             const response = await got.post(base_URI, {json : {content : message.reply_message.text}}); 
@@ -55,8 +55,8 @@ else if (Config.WORKTYPE == 'public') {
     }));
     Amdi.applyCMD({pattern: 'nekbin', fromMe: true, desc: Lang.NEKO_DESC, dontAddCommandList: true}, (async (message, match) => {
 
-        if (!message.reply_message) return await message.sendMessage(Lang.NEED_REPLY);
-        if (!message.reply_message.text) return await message.sendMessage(Lang.MUST_TEXT);
+        if (message.reply_message) return await message.sendMessage(Lang.NEED_REPLY);
+        if (message.reply_message.text) return await message.sendMessage(Lang.MUST_TEXT);
         let base_URI = "https://nekobin.com/api/documents";
         try {
             const response = await got.post(base_URI, {json : {content : message.reply_message.text}}); 
