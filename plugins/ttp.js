@@ -7,7 +7,7 @@ Queen Amdi - Black Amda
 */
 
 const Amdi = require('../events');
-const QueenAmdi = require('queenamdi-public-1');
+const QueenAmdi = require('queenamdi-public-2');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
