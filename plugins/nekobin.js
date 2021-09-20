@@ -10,7 +10,7 @@ const Lang = Language.getString('nekobin');
 
 if (Config.WORKTYPE == 'private') {
 
-    Amdi.applyCMD({pattern: 'nbin ?(.*)', fromMe: true, desc: Lang.NEKO_DESC}, (async (message, match) => {
+    Amdi.applyCMD({pattern: 'nbin', fromMe: true, desc: Lang.NEKO_DESC}, (async (message, match) => {
 
         if (!message.reply_message) return await message.sendMessage(Lang.NEED_REPLY);
         if (!message.reply_message.text) return await message.sendMessage(Lang.MUST_TEXT);
@@ -29,7 +29,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-   Amdi.applyCMD({pattern: 'nbin ?(.*)', fromMe: false, desc: Lang.NEKO_DESC}, (async (message, match) => {
+   Amdi.applyCMD({pattern: 'nbin', fromMe: false, desc: Lang.NEKO_DESC}, (async (message, match) => {
 
         if (!message.reply_message) return await message.sendMessage(Lang.NEED_REPLY);
         if (!message.reply_message.text) return await message.sendMessage(Lang.MUST_TEXT);
@@ -45,7 +45,7 @@ else if (Config.WORKTYPE == 'public') {
         }
        
     }));
-    Amdi.applyCMD({pattern: 'nbin ?(.*)', fromMe: true, desc: Lang.NEKO_DESC, dontAddCommandList: true}, (async (message, match) => {
+    Amdi.applyCMD({pattern: 'nbin', fromMe: true, desc: Lang.NEKO_DESC, dontAddCommandList: true}, (async (message, match) => {
 
         if (!message.reply_message) return await message.sendMessage(Lang.NEED_REPLY);
         if (!message.reply_message.text) return await message.sendMessage(Lang.MUST_TEXT);
