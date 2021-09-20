@@ -1,11 +1,4 @@
-/*
-Nekobin for WhatsAsena - W4RR10R
 
-Licensed under the GPL-3.0 License;
-you may not use this file except in compliance with the License.
-
-WhatsAsena - Yusuf Usta
-*/
 
 const Amdi = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
