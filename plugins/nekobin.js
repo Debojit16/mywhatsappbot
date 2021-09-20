@@ -14,7 +14,6 @@ const Config = require('../config');
 
 const Language = require('../language');
 const Lang = Language.getString('nekobin');
-let LOL = Config.WORKTYPE == 'public' ? false : true
 
 if (Config.LANG == 'EN') {
 if (Config.WORKTYPE == 'private') {
