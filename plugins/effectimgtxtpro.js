@@ -35,7 +35,7 @@ Amdi.applyCMD({pattern: 'demon ?(.*)', fromMe: LOL,  deleteCommand: false, dontA
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/demon2.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/demon2.jpg'), MessageType.image, { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/demon2.jpg'), MessageType.image, { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -54,7 +54,7 @@ Amdi.applyCMD({pattern: 'rust ?(.*)', fromMe: LOL,  deleteCommand: false, dontAd
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/rust.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/rust.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/rust.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -73,7 +73,7 @@ Amdi.applyCMD({pattern: 'transformer ?(.*)', fromMe: LOL,  deleteCommand: false,
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/transformer.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/transformer.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/transformer.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -92,7 +92,7 @@ Amdi.applyCMD({pattern: 'fiction ?(.*)', fromMe: LOL,  deleteCommand: false, don
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/fiction.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/fiction.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/fiction.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -111,7 +111,7 @@ Amdi.applyCMD({pattern: 'berry ?(.*)', fromMe: LOL,  deleteCommand: false, dontA
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/berry.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/berry.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/berry.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -130,7 +130,7 @@ Amdi.applyCMD({pattern: 'thunder ?(.*)', fromMe: LOL,  deleteCommand: false, don
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/thunder.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/thunder.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/thunder.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -149,7 +149,7 @@ Amdi.applyCMD({pattern: 'magma ?(.*)', fromMe: LOL,  deleteCommand: false, dontA
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/magma.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/magma.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/magma.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -168,7 +168,7 @@ Amdi.applyCMD({pattern: 'stone ?(.*)', fromMe: LOL,  deleteCommand: false, dontA
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/stone.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/stone.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/stone.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -198,7 +198,7 @@ Amdi.applyCMD({pattern: 'glitch ?(.*)', fromMe: LOL,  deleteCommand: false, dont
                   });
               };
               await download(`${data}`, '/root/mywhatsappbot/glitch.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/glitch.jpg'), MessageType.image, { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/glitch.jpg'), MessageType.image, { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
               })
           } catch(err) { 
               console.log(err)
@@ -227,7 +227,7 @@ Amdi.applyCMD({pattern: '2glitch ?(.*)', fromMe: LOL,  deleteCommand: false, don
                   });
               };
               await download(`${data}`, '/root/mywhatsappbot/t2gl.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/t2gl.jpg'), MessageType.image, { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/t2gl.jpg'), MessageType.image, { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
               })
           } catch(err) { 
               console.log(err)
@@ -246,7 +246,7 @@ Amdi.applyCMD({pattern: 'harry ?(.*)', fromMe: LOL,  deleteCommand: false, dontA
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/harry.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/harry.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/harry.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -265,7 +265,7 @@ Amdi.applyCMD({pattern: 'cracked ?(.*)', fromMe: LOL,  deleteCommand: false, don
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/cracked.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/cracked.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/cracked.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -284,7 +284,7 @@ Amdi.applyCMD({pattern: 'glass ?(.*)', fromMe: LOL,  deleteCommand: false, dontA
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/glass.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/glass.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/glass.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -303,7 +303,7 @@ Amdi.applyCMD({pattern: 'glossy ?(.*)', fromMe: LOL,  deleteCommand: false, dont
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/glossy.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/glossy.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/glossy.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -322,7 +322,7 @@ Amdi.applyCMD({pattern: 'beach ?(.*)', fromMe: LOL,  deleteCommand: false, dontA
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/beach.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/beach.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/beach.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -341,7 +341,7 @@ Amdi.applyCMD({pattern: 'watercolour ?(.*)', fromMe: LOL,  deleteCommand: false,
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/watercolour.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/watercolour.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/watercolour.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -360,7 +360,7 @@ Amdi.applyCMD({pattern: 'devil ?(.*)', fromMe: LOL,  deleteCommand: false, dontA
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/devil.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/devil.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/devil.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -379,7 +379,7 @@ Amdi.applyCMD({pattern: 'underwater ?(.*)', fromMe: LOL,  deleteCommand: false, 
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/underwater.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/underwater.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/underwater.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -398,7 +398,7 @@ Amdi.applyCMD({pattern: 'bear ?(.*)', fromMe: LOL,  deleteCommand: false, dontAd
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/bear.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/bear.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/bear.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -417,7 +417,7 @@ Amdi.applyCMD({pattern: 'graffiti ?(.*)', fromMe: LOL,  deleteCommand: false, do
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/1graffiti.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/1graffiti.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/1graffiti.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -436,7 +436,7 @@ Amdi.applyCMD({pattern: 'xmas ?(.*)', fromMe: LOL,  deleteCommand: false, dontAd
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/xmas.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/xmas.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/xmas.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -455,7 +455,7 @@ Amdi.applyCMD({pattern: 'future ?(.*)', fromMe: LOL,  deleteCommand: false, dont
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/future.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/future.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/future.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -474,7 +474,7 @@ Amdi.applyCMD({pattern: 'cloud ?(.*)', fromMe: LOL,  deleteCommand: false, dontA
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/cloud.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/cloud.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/cloud.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -493,7 +493,7 @@ Amdi.applyCMD({pattern: 'luxury ?(.*)', fromMe: LOL,  deleteCommand: false, dont
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/luxury.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/luxury.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/luxury.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -512,7 +512,7 @@ Amdi.applyCMD({pattern: 'leaves ?(.*)', fromMe: LOL,  deleteCommand: false, dont
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/leaves.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/leaves.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/leaves.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -531,7 +531,7 @@ Amdi.applyCMD({pattern: 'gneon ?(.*)', fromMe: LOL,  deleteCommand: false, dontA
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/gneon.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/gneon.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/gneon.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -550,7 +550,7 @@ Amdi.applyCMD({pattern: 'holo ?(.*)', fromMe: LOL,  deleteCommand: false, dontAd
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/holo.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/holo.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/holo.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
@@ -569,7 +569,7 @@ Amdi.applyCMD({pattern: 'sand ?(.*)', fromMe: LOL,  deleteCommand: false, dontAd
                 });
             };
             await download(`${data}`, '/root/mywhatsappbot/sand.jpg', async() => {
-                await message.client.sendMessage(message.jid,fs.readFileSync('/root/QueenAmdi/sand.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
+                await message.client.sendMessage(message.jid,fs.readFileSync('/root/mywhatsappbot/sand.jpg'), MessageType.image,  { caption: Config.CAP, quoted: message.data, thumbnail: thumb })
             })
         } catch(err) { 
             console.log(err)
