@@ -143,6 +143,12 @@
             "NOT_ADDED": "```You haven't added this user already!```",
             "DISABLED": "```Lydia has been disabled for this user!```"
         },
+        "voicy": {
+            "NEED_REPLY": "```Please reply to any message!```",
+            "ONLY_AUDIO":"```Only audio file is accepted.```",
+            "USAGE": "It converts audio to text.",
+            "TEXT": "*Hey! I listened secretly to this voice and heard those!:* \n\n"
+        },
         "memes": {
             "MEMES_DESC": "The photos you replied to are memes.",
             "NEED_REPLY": "*Mention a photo!*",
