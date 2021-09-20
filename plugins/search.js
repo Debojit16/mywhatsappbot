@@ -54,7 +54,7 @@ Amdi.applyCMD({ pattern: 'getspo ?(.*)', fromMe: LOL, desc: Lang.SPO_USAGE,  del
 
   var apikey = await QueenAmdi.api()
 
-  get_result = await fetchJson('https://api.lolhuman.xyz/api/moddroid?apikey=' + apikey.key + `&query=${match[1]}`)
+  get_result = await fetchJson('https://api.lolhuman.xyz/api/spotifysearch?apikey=' + apikey.key + `&query=${match[1]}`)
   get_result = get_result.result
     ini_txt = ""
         for (var x of get_result) {
