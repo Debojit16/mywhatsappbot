@@ -14,7 +14,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 const Amdi = require('../events')
-const QueenAmdi = require('queenamdi-public-1');
+const QueenAmdi = require('queenamdi-public-2');
 const { MessageType, Mimetype } = require('@adiwajshing/baileys')
 const axios = require('axios')
 const FormData = require('form-data');
