@@ -16,6 +16,7 @@ const Language = require('../language');
 const Lang = Language.getString('nekobin');
 let LOL = Config.WORKTYPE == 'public' ? false : true
 
+if (Config.LANG == 'EN') {
 if (Config.WORKTYPE == 'private') {
 
     Amdi.applyCMD({pattern: 'nekbin', fromMe: true, desc: Lang.NEKO_DESC}, (async (message, match) => {
@@ -69,4 +70,5 @@ else if (Config.WORKTYPE == 'public') {
         }
        
     }));
+}
 }
