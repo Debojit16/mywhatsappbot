@@ -162,7 +162,7 @@ Amdi.applyCMD({ pattern: 'ig ?(.*)', fromMe: LOL,  deleteCommand: false, desc: L
     return await message.client.deleteMessage(message.jid, {id: uploading.key.id, remoteJid: message.jid, fromMe: true})
 }));
 
-/*
+
 Amdi.applyCMD({ pattern: 'fb ?(.*)', fromMe: LOL,  deleteCommand: false, desc: Lang.FBDESC}, (async (message, match) => {
 
     const userName = match[1]
@@ -179,7 +179,6 @@ Amdi.applyCMD({ pattern: 'fb ?(.*)', fromMe: LOL,  deleteCommand: false, desc: L
     await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {caption: Config.CAP, quoted: message.data, thumbnail: thumb}) 
     return await message.client.deleteMessage(message.jid, {id: uploading.key.id, remoteJid: message.jid, fromMe: true})
 }));
-*/
 
 Amdi.applyCMD({pattern: 'trt(?: |$)(\\S*) ?(\\S*)', desc: Lang.TRANSLATE_DESC, usage: Lang.TRANSLATE_USAGE, fromMe: LOL}, (async (message, match) => {
 
