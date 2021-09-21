@@ -36,6 +36,11 @@
             "required": true,
             "value": "true"
         },
+        "FULL_EVA": {
+            "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
+            "required": true,
+            "value": "false"
+        },
         "SEND_READ": {
             "description": "Need to show user whether bot message seen or not?",
             "required": true,
