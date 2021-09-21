@@ -78,11 +78,6 @@
             "TERM_DESC": "Allow server command shell to run.",
             "GIVE_ME_CODE": "*Give me a code!*"
         },
-        "nekobin": {
-            "NEKO_DESC": "Reply messages will be added to nekobin.com",
-            "NEED_REPLY": "```Please tag a message!``` ",
-            "MUST_TEXT": "```Please tag any message```"
-        },
         "heroku": {
             "RESTART_DESC": "Restart Büññy®Bot",
             "RESTART_MSG": "```♻️ Restarting...```",
@@ -142,12 +137,6 @@
             "ALREADY_EMPTY": "```Your user list is already empty!```",
             "NOT_ADDED": "```You haven't added this user already!```",
             "DISABLED": "```Lydia has been disabled for this user!```"
-        },
-        "voicy": {
-            "NEED_REPLY": "```Please reply to any message!```",
-            "ONLY_AUDIO":"```Only audio file is accepted.```",
-            "USAGE": "It converts audio to text.",
-            "TEXT": "*Hey! I listened secretly to this voice and heard those!:* \n\n"
         },
         "memes": {
             "MEMES_DESC": "The photos you replied to are memes.",
