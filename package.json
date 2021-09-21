@@ -23,7 +23,7 @@
   "dependencies": {
     "queenamdi-public-2":"1.0.1",
     "queenamdi-img": "1.0.0",
-    "queenamdi-textlogo-1.0.3": "1.0.3"
+    "queenamdi-textlogo-1.0.3": "1.0.3",
     "whatsasena-npm": "^1.3.0"
   }
 }
